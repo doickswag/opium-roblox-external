@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{39a3dcb9-e35f-458e-84f0-0cd078d08fdd}</ProjectGuid>
+    <RootNamespace>Centrum</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>opiumext</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\zzziz\Downloads\hush\hush\drawing\libs\FreeType\include;C:\Users\zzziz\Downloads\hush\hush;C:\Users\zzziz\Downloads\hush\hush\util;$(SolutionDir)hush\libs\FreeType\include;$(SolutionDir)hush\drawing\libs\Microsoft DirectX SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\zzziz\Downloads\hush\hush\drawing\libs\FreeType\lib;C:\Users\zzziz\Downloads\hush\hush\drawing\libs;$(SolutionDir)hush\drawing\libs\FreeType\lib;$(SolutionDir)hush\drawing\libs\Microsoft DirectX SDK\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\zzziz\Downloads\hush\hush\drawing\libs\FreeType\include;C:\Users\zzziz\Downloads\hush\hush;C:\Users\zzziz\Downloads\hush\hush\util;$(SolutionDir)hush\libs\FreeType\include;$(SolutionDir)hush\drawing\libs\Microsoft DirectX SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\zzziz\Downloads\hush\hush\drawing\libs\FreeType\lib;C:\Users\zzziz\Downloads\hush\hush\drawing\libs;$(SolutionDir)hush\drawing\libs\FreeType\lib;$(SolutionDir)hush\drawing\libs\Microsoft DirectX SDK\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Users\zzziz\Downloads\hush\hush\drawing\libs\FreeType\include;C:\Users\zzziz\Downloads\hush\hush;C:\Users\zzziz\Downloads\hush\hush\util;$(SolutionDir)hush\libs\FreeType\include;$(SolutionDir)hush\drawing\libs\Microsoft DirectX SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\zzziz\Downloads\hush\hush\drawing\libs\FreeType\lib;C:\Users\zzziz\Downloads\hush\hush\drawing\libs;$(SolutionDir)hush\drawing\libs\FreeType\lib;$(SolutionDir)hush\drawing\libs\Microsoft DirectX SDK\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\build\Vextor</OutDir>
+    <IntDir>..\build\intermediate</IntDir>
+    <TargetName>Vextor</TargetName>
+    <IncludePath>$(VC_SourcePath)includes\DirectX\include;$(VC_SourcePath)includes\FreeType\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_SourcePath)includes\DirectX\win64;$(VC_SourcePath)includes\DirectX\win86;$(VC_SourcePath)includes\FreeType\win64;$(VC_SourcePath)includes\FreeType\win86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <VcpkgUseStatic>true</VcpkgUseStatic>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;winhttp.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;winhttp.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;winhttp.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <AdditionalDependencies>d3d11.lib;winhttp.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="drawing\imgui\addons\imgui_addons.cpp" />
+    <ClCompile Include="drawing\imgui\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include="drawing\imgui\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="drawing\imgui\imadd.cpp" />
+    <ClCompile Include="drawing\imgui\imgui.cpp" />
+    <ClCompile Include="drawing\imgui\imgui_demo.cpp" />
+    <ClCompile Include="drawing\imgui\imgui_draw.cpp" />
+    <ClCompile Include="drawing\imgui\imgui_tables.cpp" />
+    <ClCompile Include="drawing\imgui\imgui_toggle.cpp" />
+    <ClCompile Include="drawing\imgui\imgui_toggle_palette.cpp" />
+    <ClCompile Include="drawing\imgui\imgui_toggle_presets.cpp" />
+    <ClCompile Include="drawing\imgui\imgui_toggle_renderer.cpp" />
+    <ClCompile Include="drawing\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="drawing\imgui\misc\freetype\imgui_freetype.cpp" />
+    <ClCompile Include="drawing\imgui\TextEditor.cpp" />
+    <ClCompile Include="drawing\overlay\keybind\keybind.cpp" />
+    <ClCompile Include="drawing\overlay\overlay.cpp" />
+    <ClCompile Include="intro.cpp" />
+    <ClCompile Include="features\combat\modules\aimbot.cpp" />
+    <ClCompile Include="features\combat\modules\anti_aim.cpp" />
+    <ClCompile Include="features\combat\modules\dahood\antistomp.cpp" />
+    <ClCompile Include="features\combat\modules\dahood\autostomp.cpp" />
+    <ClCompile Include="features\combat\modules\dahood\autostuff\auto.cpp" />
+    <ClCompile Include="features\combat\modules\orbit.cpp" />
+    <ClCompile Include="features\combat\modules\dahood\rapidfire.cpp" />
+    <ClCompile Include="features\combat\modules\silent.cpp" />
+    <ClCompile Include="features\combat\modules\triggerbot.cpp" />
+    <ClCompile Include="features\hook.h" />
+    <ClCompile Include="features\hooking\modules.cpp" />
+    <ClCompile Include="features\misc\modules\autoreload.cpp" />
+    <ClCompile Include="features\misc\modules\antisit.cpp" />
+    <ClCompile Include="features\misc\modules\dahood\autoarmor.cpp" />
+    <ClCompile Include="features\misc\modules\hipheight.cpp" />
+    <ClCompile Include="features\misc\modules\jumppower.cpp" />
+    <ClCompile Include="features\misc\modules\flight.cpp" />
+    <ClCompile Include="features\misc\modules\noclip.cpp" />
+    <ClCompile Include="features\misc\modules\speed.cpp" />
+    <ClCompile Include="features\misc\modules\spinbot.cpp" />
+    <ClCompile Include="features\misc\modules\voidhide.cpp" />
+    <ClCompile Include="features\misc\modules\animation.cpp" />
+    <ClCompile Include="features\misc\modules\cframe.cpp" />
+    <ClCompile Include="features\misc\modules\antiaim.cpp" />
+    <ClCompile Include="features\misc\modules\antistomp.cpp" />
+    <ClCompile Include="features\misc\modules\desync.cpp" />
+    <ClCompile Include="features\misc\modules\spam_tp.cpp" />
+    <ClCompile Include="features\visuals\visuals.cpp" />
+    <ClCompile Include="features\visuals\modules\crosshair.cpp" />
+    <ClCompile Include="features\visuals\modules\dahood\armorbar.cpp" />
+    <ClCompile Include="features\visuals\modules\esp.cpp" />
+    <ClCompile Include="features\wallcheck\wallcheck.cpp" />
+    <ClCompile Include="protect\oxorany\oxorany.cxx" />
+    <ClCompile Include="util\avatarmanager\avatarmanager.cpp" />
+    <ClCompile Include="util\cache.cpp" />
+    <ClCompile Include="util\classes\camera\camera.cpp" />
+    <ClCompile Include="util\classes\color\color.cpp" />
+    <ClCompile Include="util\classes\entity\entity.cpp" />
+    <ClCompile Include="util\classes\instance\instance.cpp" />
+    <ClCompile Include="util\classes\part\part.cpp" />
+    <ClCompile Include="util\classes\silenthelper\silenthelper.cpp" />
+    <ClCompile Include="util\classes\startup\classes.cpp" />
+    <ClCompile Include="util\config\configsystem.cpp" />
+    <ClCompile Include="util\config\configsystem.h" />
+    <ClCompile Include="util\console\console.cpp" />
+    <ClCompile Include="util\entity_cache\entity_cache.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auth.hpp" />
+    <ClInclude Include="drawing\imgui\addons\imgui_addons.h" />
+    <ClInclude Include="drawing\imgui\backends\imgui_impl_dx11.h" />
+    <ClInclude Include="drawing\imgui\backends\imgui_impl_win32.h" />
+    <ClInclude Include="drawing\imgui\imconfig.h" />
+    <ClInclude Include="drawing\imgui\imgui.h" />
+    <ClInclude Include="drawing\imgui\imgui_internal.h" />
+    <ClInclude Include="drawing\imgui\imgui_offset_rect.h" />
+    <ClInclude Include="drawing\imgui\imgui_toggle.h" />
+    <ClInclude Include="drawing\imgui\imgui_toggle_math.h" />
+    <ClInclude Include="drawing\imgui\imgui_toggle_palette.h" />
+    <ClInclude Include="drawing\imgui\imgui_toggle_presets.h" />
+    <ClInclude Include="drawing\imgui\imgui_toggle_renderer.h" />
+    <ClInclude Include="drawing\imgui\imstb_rectpack.h" />
+    <ClInclude Include="drawing\imgui\imstb_textedit.h" />
+    <ClInclude Include="drawing\imgui\imstb_truetype.h" />
+    <ClInclude Include="drawing\imgui\includes.h" />
+    <ClInclude Include="drawing\imgui\misc\freetype\imgui_freetype.h" />
+    <ClInclude Include="drawing\imgui\TextEditor.h" />
+    <ClInclude Include="drawing\overlay\keybind\keybind.h" />
+    <ClInclude Include="drawing\overlay\overlay.h" />
+    <ClInclude Include="drawing\visualshook.h" />
+    <ClInclude Include="features\combat\combat.h" />
+    <ClInclude Include="features\combat\modules\dahood\autostuff\auto.h" />
+    <ClInclude Include="features\combat\modules\triggerbot.h" />
+    <ClInclude Include="features\misc\misc.h" />
+    <ClInclude Include="features\visuals\modules\crosshair.h" />
+    <ClInclude Include="features\visuals\visuals.h" />
+    <ClInclude Include="features\wallcheck\wallcheck.h" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="protect\base64.h" />
+    <ClInclude Include="protect\hider.h" />
+    <ClInclude Include="protect\Imports.h" />
+    <ClInclude Include="protect\lazy\lazy.h" />
+    <ClInclude Include="protect\obfusheader.h" />
+    <ClInclude Include="protect\oxorany\oxorany.h" />
+    <ClInclude Include="protect\oxorany\oxorany_include.h" />
+    <ClInclude Include="protect\prot.hxx" />
+    <ClInclude Include="protect\skStr.h" />
+    <ClInclude Include="protect\spoof.h" />
+    <ClInclude Include="skStr.h" />
+    <ClInclude Include="utils.hpp" />
+    <ClInclude Include="util\avatarmanager\avatarmanager.h" />
+    <ClInclude Include="util\avatarmanager\stb_image.h" />
+    <ClInclude Include="util\classes\classes.h" />
+    <ClInclude Include="util\classes\math\math.h" />
+    <ClInclude Include="util\console\console.h" />
+    <ClInclude Include="util\driver\driver.h" />
+    <ClInclude Include="util\events\event.h" />
+    <ClInclude Include="util\globals.h" />
+    <ClInclude Include="util\json\json.h" />
+    <ClInclude Include="util\notification\notification.h" />
+    <ClInclude Include="util\offsets.h" />
+    <ClInclude Include="util\protection\hashes\hash.h" />
+    <ClInclude Include="util\protection\hider.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="library_x64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini" />
+    <None Include="test.json" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
